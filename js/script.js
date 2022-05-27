@@ -1592,7 +1592,6 @@ var ValidateForm, Form;
 })();
 
 var Anchor;
-console.log('a');
 (function() {
 	"use strict";
 
@@ -1638,7 +1637,6 @@ console.log('a');
 				}
 			});
 
-			console.log(window.location.hash);
 
 			if (window.location.hash) {
 				window.addEventListener('load', () => {
